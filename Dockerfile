@@ -1,4 +1,4 @@
-FROM eclipse-temurin:22-jdk
+FROM eclipse-temurin:17-jdk
 WORKDIR /app
 COPY target/demo0611-1.0-SNAP.jar app.jar
 EXPOSE 8080
